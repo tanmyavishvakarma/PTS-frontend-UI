@@ -1,0 +1,21 @@
+.nav-wrapper{
+    font-family: 'Bebas Neue', cursive;    
+    background-color: rgb(162,162, 162);
+
+}
+
+
+.sidenav{
+    font-family: 'Bebas Neue';
+    font-size: 90px;
+ 
+}
+
+nav{
+    box-shadow: none;
+ 
+
+}
+.logo{
+    padding-left: 15px;
+}
