@@ -3,6 +3,7 @@
 
    display: flex;
    justify-content: flex-end;
+    
  
    
 }
@@ -26,4 +27,29 @@
     width:85rem;
     height:40rem;
 
+}
+.bgimg-holder{
+    width:85rem;
+    height:40rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url('../assets/back.jpg');
+    
+  
+}
+.subtext{
+    color:white;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    margin-right: auto;
+    
+  
+}
+.toptext{
+    color:white;
+    font-family: 'Audiowide', cursive;
+    font-size: 4rem;
+    margin-right: auto;
+    
 }

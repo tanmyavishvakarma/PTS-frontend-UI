@@ -15,7 +15,16 @@ class Home extends Component{
                     <div className="arrow"></div>
                     <div className="arrow"></div>  
                 </div>
-                <img src={Bgimg} className="bgimg"></img>
+                <div className="bgimg-holder">
+                    <div className="toptext">
+                        PLATFORM TECH SOLUTIONS
+                    </div>
+                    <div className="subtext">
+                        Your Imagination, Our Creations
+                    </div>
+                 
+                </div>
+              
             </div>
         
         );
