@@ -1,55 +1,48 @@
 
-.hcontainer{
-
-   display: flex;
-   justify-content: flex-end;
-    
- 
-   
+body {
+    overflow: hidden;
 }
-.arrow{
-    border-top:45px solid black;
-    border-right:45px solid white;
-    border-bottom:45px solid white;
-    border-left:45px solid white;
-    margin-right: 10px;
-
+#particles-js {
+    background-color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-.arrow1{
-    border-top:45px solid white;
-    border-right:45px solid white;
-    border-bottom:45px solid white;
-    border-left:45px solid white;
-   
+.tophead{
+    color:white;
+}
+footer{
+    background-color: black;
+    height: auto;
 }
 
-.bgimg{
-    width:85rem;
-    height:40rem;
 
-}
-.bgimg-holder{
-    width:85rem;
-    height:40rem;
+#welcome {
+    position: absolute;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    background-image: url('../assets/back.jpg');
-    
-  
-}
-.subtext{
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     color:white;
     font-family: 'Caveat', cursive;
-    font-size: 4rem;
-    margin-right: auto;
+    font-size: 5rem;
+    flex-direction: column;
     
-  
+
 }
-.toptext{
+
+#welcome2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     color:white;
-    font-family: 'Audiowide', cursive;
-    font-size: 4rem;
-    margin-right: auto;
-    
+    font-family: 'Bebas Neue';
+    font-size: 10rem;
 }
+
