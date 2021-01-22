@@ -4,15 +4,15 @@ import { Container, Row, Col } from 'react-grid-system';
 
 
 
-const description = "We help our members succeed by providing mentorships.";
-const title = "";
+const description = "We help our members succeed by providing mentorships. \n Patform is here to help you get industry ready, via student engaged skill development along with team management.";
+const title = "Platform Techs";
 const columns = [
     {
-        title: "Quick links",
+        title: "Links",
         resources: [
             {
                 name: "About",
-                link: "/about"
+                link: "#about"
             },
             {
                 name: "Careers",
@@ -36,7 +36,7 @@ const columns = [
                 link: "/locations"
             },
             {
-                name: "Hoshiarpur, India, 146023",
+                name: "Hoshiarpur,India,146023",
                 link: "/locations"
             },
             {
@@ -57,19 +57,20 @@ const Footer = () => {
                     <Row>
                         <Col md={12}>
                             <SimpleReactFooter className="hovera"
+                                
                                 description={description}
                                 title={title}
                                 columns={columns}
-                                linkedin="fluffy_cat_on_linkedin"
-                                facebook="fluffy_cat_on_fb"
-                                twitter="fluffy_cat_on_twitter"
-                                instagram="fluffy_cat_live"
-                                youtube="UCFt6TSF464J8K82xeA?"
-                                pinterest="fluffy_cats_collections"
-                                copyright="&#169 PlatformTechSolution | All Rights Reserved"
+                                facebook="platform.techs.31"
+                                twitter="platformtechs"
+                                instagram="page2platform"
+                                linkedin="platform-tech-solutions-086323197"
+                                pinterest="sss"
+                                youtube="sss"
+                                copyright="PlatformTechSolution | All Rights Reserved"
                                 iconColor="white"
-                                backgroundColor="#363636"
-                                fontColor="white"
+                                backgroundColor="#302e2ece"
+                                fontColor="lightcyan"
                                 copyrightColor="darkgrey"
                             />;
                         </Col>
